@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showSheet = false
+
     @State var rolledDice: [String] = [
         diceNames[0][0],
         diceNames[0][1],
@@ -28,7 +30,6 @@ struct ContentView: View {
     }
     
     var body: some View {
-        
         ZStack {
             LinearGradient(gradient: Gradient(colors: [.blue, .purple]), startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
@@ -56,6 +57,20 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .cornerRadius(20)
                 })
+                
+                HStack {
+                    Spacer()
+                    Button {
+                        showSheet.toggle()
+                    } label: {
+                        Label("",systemImage: "info.cirle.fill")
+                            .padding()
+                            .foregroundColor(.red)
+                    }
+                    .sheet(isPresented: $showSheet) {
+                        SheetView()
+                    }
+                }
             } // VStack: Main layout
         } // ZStack: Root
     }

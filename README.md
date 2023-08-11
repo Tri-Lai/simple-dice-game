@@ -24,7 +24,11 @@ You can clone the app in this repo to experience.
 4. Tap the play button again to rematch.
 
 ### Demonstartion
+Simple Dice Game app icon
 
+<img width="92" alt="Screenshot 2023-08-11 at 16 28 45" src="https://github.com/Tri-Lai/simple-dice-game/assets/56432966/730a4212-3f21-4950-8802-67d8a3107e0f">
+
+https://github.com/Tri-Lai/simple-dice-game/assets/56432966/df9cb51f-6100-491d-9566-4ec61cf32d76
 
 ## Contributor
 * **Developer**: Tri Lai ([@Tri-Lai](https://github.com/Tri-Lai))

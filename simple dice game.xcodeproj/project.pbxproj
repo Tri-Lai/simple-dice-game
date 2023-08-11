@@ -21,6 +21,8 @@
 		846700782A85CFB50057FD52 /* ring-up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 846700702A85CFB50057FD52 /* ring-up.mp3 */; };
 		8467007B2A85D0FF0057FD52 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467007A2A85D0FF0057FD52 /* DiceView.swift */; };
 		846700802A85D2AF0057FD52 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467007F2A85D2AF0057FD52 /* helper.swift */; };
+		846700822A85FA9D0057FD52 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846700812A85FA9D0057FD52 /* ScoreView.swift */; };
+		846700842A86067E0057FD52 /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846700832A86067E0057FD52 /* TextModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		846700702A85CFB50057FD52 /* ring-up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ring-up.mp3"; sourceTree = "<group>"; };
 		8467007A2A85D0FF0057FD52 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 		8467007F2A85D2AF0057FD52 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		846700812A85FA9D0057FD52 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		846700832A86067E0057FD52 /* TextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				8467007A2A85D0FF0057FD52 /* DiceView.swift */,
+				846700812A85FA9D0057FD52 /* ScoreView.swift */,
+				846700832A86067E0057FD52 /* TextModifier.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +209,8 @@
 				8467007B2A85D0FF0057FD52 /* DiceView.swift in Sources */,
 				8467005B2A85CF700057FD52 /* simple_dice_gameApp.swift in Sources */,
 				846700802A85D2AF0057FD52 /* helper.swift in Sources */,
+				846700822A85FA9D0057FD52 /* ScoreView.swift in Sources */,
+				846700842A86067E0057FD52 /* TextModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

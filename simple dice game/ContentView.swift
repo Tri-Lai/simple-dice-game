@@ -43,6 +43,10 @@ struct ContentView: View {
                 
                 Spacer()
                 
+                ScoreView(rolledDice: rolledDice)
+                                
+                Spacer()
+                
                 Button(action: {
                     rollDice()
                 }, label: {

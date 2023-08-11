@@ -8,14 +8,52 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var rolledDice: [String] = [
+        diceNames[0][0],
+        diceNames[0][1],
+        diceNames[1][3],
+        diceNames[1][5]
+    ]
+    
+    func rollDice() {
+        rolledDice.removeAll()
+        
+        let blueShuffled = diceNames[0].shuffled()
+        let redShuffled = diceNames[1].shuffled()
+        
+        rolledDice.append(blueShuffled[0])
+        rolledDice.append(blueShuffled[1])
+        rolledDice.append(redShuffled[0])
+        rolledDice.append(redShuffled[1])
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        
+        ZStack {
+            LinearGradient(gradient: Gradient(colors: [.blue, .purple]), startPoint: .top, endPoint: .bottom)
+                .ignoresSafeArea()
+            VStack {
+                Image("rmit-casino-welcome-logo")
+                    .resizable()
+                    .scaledToFit()
+                
+                Spacer()
+                
+                DiceView(dices: rolledDice)
+                
+                Spacer()
+                
+                Button(action: {
+                    rollDice()
+                }, label: {
+                    Label("Play", systemImage: "play.fill")
+                        .padding(.all, 20)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(20)
+                })
+            } // VStack: Main layout
+        } // ZStack: Root
     }
 }
 

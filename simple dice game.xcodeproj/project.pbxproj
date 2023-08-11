@@ -11,6 +11,16 @@
 		8467005D2A85CF700057FD52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467005C2A85CF700057FD52 /* ContentView.swift */; };
 		8467005F2A85CF710057FD52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8467005E2A85CF710057FD52 /* Assets.xcassets */; };
 		846700622A85CF710057FD52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846700612A85CF710057FD52 /* Preview Assets.xcassets */; };
+		846700712A85CFB50057FD52 /* bet-chip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 846700692A85CFB50057FD52 /* bet-chip.mp3 */; };
+		846700722A85CFB50057FD52 /* blink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8467006A2A85CFB50057FD52 /* blink.mp3 */; };
+		846700732A85CFB50057FD52 /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8467006B2A85CFB50057FD52 /* winning.mp3 */; };
+		846700742A85CFB50057FD52 /* spin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8467006C2A85CFB50057FD52 /* spin.mp3 */; };
+		846700752A85CFB50057FD52 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8467006D2A85CFB50057FD52 /* gameover.mp3 */; };
+		846700762A85CFB50057FD52 /* drum-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8467006E2A85CFB50057FD52 /* drum-music.mp3 */; };
+		846700772A85CFB50057FD52 /* highscore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8467006F2A85CFB50057FD52 /* highscore.mp3 */; };
+		846700782A85CFB50057FD52 /* ring-up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 846700702A85CFB50057FD52 /* ring-up.mp3 */; };
+		8467007B2A85D0FF0057FD52 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467007A2A85D0FF0057FD52 /* DiceView.swift */; };
+		846700802A85D2AF0057FD52 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467007F2A85D2AF0057FD52 /* helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		8467005C2A85CF700057FD52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8467005E2A85CF710057FD52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846700612A85CF710057FD52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		846700692A85CFB50057FD52 /* bet-chip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bet-chip.mp3"; sourceTree = "<group>"; };
+		8467006A2A85CFB50057FD52 /* blink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blink.mp3; sourceTree = "<group>"; };
+		8467006B2A85CFB50057FD52 /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winning.mp3; sourceTree = "<group>"; };
+		8467006C2A85CFB50057FD52 /* spin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spin.mp3; sourceTree = "<group>"; };
+		8467006D2A85CFB50057FD52 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		8467006E2A85CFB50057FD52 /* drum-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "drum-music.mp3"; sourceTree = "<group>"; };
+		8467006F2A85CFB50057FD52 /* highscore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = highscore.mp3; sourceTree = "<group>"; };
+		846700702A85CFB50057FD52 /* ring-up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ring-up.mp3"; sourceTree = "<group>"; };
+		8467007A2A85D0FF0057FD52 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		8467007F2A85D2AF0057FD52 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,9 @@
 		846700592A85CF700057FD52 /* simple dice game */ = {
 			isa = PBXGroup;
 			children = (
+				8467007C2A85D2850057FD52 /* helpers */,
+				846700792A85D0EA0057FD52 /* Views */,
+				846700682A85CFB50057FD52 /* sound-effect */,
 				8467005A2A85CF700057FD52 /* simple_dice_gameApp.swift */,
 				8467005C2A85CF700057FD52 /* ContentView.swift */,
 				8467005E2A85CF710057FD52 /* Assets.xcassets */,
@@ -65,6 +88,37 @@
 				846700612A85CF710057FD52 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		846700682A85CFB50057FD52 /* sound-effect */ = {
+			isa = PBXGroup;
+			children = (
+				846700692A85CFB50057FD52 /* bet-chip.mp3 */,
+				8467006A2A85CFB50057FD52 /* blink.mp3 */,
+				8467006B2A85CFB50057FD52 /* winning.mp3 */,
+				8467006C2A85CFB50057FD52 /* spin.mp3 */,
+				8467006D2A85CFB50057FD52 /* gameover.mp3 */,
+				8467006E2A85CFB50057FD52 /* drum-music.mp3 */,
+				8467006F2A85CFB50057FD52 /* highscore.mp3 */,
+				846700702A85CFB50057FD52 /* ring-up.mp3 */,
+			);
+			path = "sound-effect";
+			sourceTree = "<group>";
+		};
+		846700792A85D0EA0057FD52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8467007A2A85D0FF0057FD52 /* DiceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8467007C2A85D2850057FD52 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8467007F2A85D2AF0057FD52 /* helper.swift */,
+			);
+			path = helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +179,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846700772A85CFB50057FD52 /* highscore.mp3 in Resources */,
+				846700782A85CFB50057FD52 /* ring-up.mp3 in Resources */,
+				846700752A85CFB50057FD52 /* gameover.mp3 in Resources */,
 				846700622A85CF710057FD52 /* Preview Assets.xcassets in Resources */,
+				846700762A85CFB50057FD52 /* drum-music.mp3 in Resources */,
+				846700712A85CFB50057FD52 /* bet-chip.mp3 in Resources */,
+				846700742A85CFB50057FD52 /* spin.mp3 in Resources */,
 				8467005F2A85CF710057FD52 /* Assets.xcassets in Resources */,
+				846700722A85CFB50057FD52 /* blink.mp3 in Resources */,
+				846700732A85CFB50057FD52 /* winning.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +200,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8467005D2A85CF700057FD52 /* ContentView.swift in Sources */,
+				8467007B2A85D0FF0057FD52 /* DiceView.swift in Sources */,
 				8467005B2A85CF700057FD52 /* simple_dice_gameApp.swift in Sources */,
+				846700802A85D2AF0057FD52 /* helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

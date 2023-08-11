@@ -25,6 +25,7 @@
 		846700842A86067E0057FD52 /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846700832A86067E0057FD52 /* TextModifier.swift */; };
 		846700862A8615690057FD52 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846700852A8615690057FD52 /* SheetView.swift */; };
 		848034682A862FCC00FF0DA0 /* ImageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848034672A862FCC00FF0DA0 /* ImageHeaderView.swift */; };
+		8480346A2A86356300FF0DA0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 848034692A86356300FF0DA0 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		846700832A86067E0057FD52 /* TextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
 		846700852A8615690057FD52 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		848034672A862FCC00FF0DA0 /* ImageHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHeaderView.swift; sourceTree = "<group>"; };
+		848034692A86356300FF0DA0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				8467005C2A85CF700057FD52 /* ContentView.swift */,
 				8467005E2A85CF710057FD52 /* Assets.xcassets */,
 				846700602A85CF710057FD52 /* Preview Content */,
+				848034692A86356300FF0DA0 /* README.md */,
 			);
 			path = "simple dice game";
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				846700742A85CFB50057FD52 /* spin.mp3 in Resources */,
 				8467005F2A85CF710057FD52 /* Assets.xcassets in Resources */,
 				846700722A85CFB50057FD52 /* blink.mp3 in Resources */,
+				8480346A2A86356300FF0DA0 /* README.md in Resources */,
 				846700732A85CFB50057FD52 /* winning.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
